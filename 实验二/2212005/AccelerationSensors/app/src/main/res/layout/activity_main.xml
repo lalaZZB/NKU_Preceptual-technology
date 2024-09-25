@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/acceleration_x"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="acceleration_x"/>
+        <TextView
+            android:id="@+id/acceleration_y"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="acceleration_y"/>
+        <TextView
+            android:id="@+id/acceleration_z"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="acceleration_z"/>
+
+        <TextView
+            android:id="@+id/ifmove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ifmove"
+            android:textSize="30sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/acceleration_total"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="acceleration_total"/>
+
+        <TextView
+            android:id="@+id/stepCountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当前步数：0"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
